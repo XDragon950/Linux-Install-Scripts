@@ -1,2 +1,1 @@
-archinstall
 pacman -S neofetch terminator chromium
