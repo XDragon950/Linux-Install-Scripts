@@ -3,7 +3,7 @@
 # sudo usermod -aG sudo (user)
 wget https://cdn.fastly.steamstatic.com/client/installer/steam.deb
 sudo dpkg -i steam.deb
-sudo apt install fastfetch chromium xinit curl htop i3 thunar -y
+sudo apt install fastfetch chromium xinit curl htop i3 thunar zsh -y
 curl -fsSL https://download.opensuse.org/repositories/home:clayrisser:sid/Debian_Unstable/Release.key | gpg --dearmor | sudo tee /etc/apt/keyrings/home_clayrisser_sid.gpg > /dev/null
 ARCH="$(dpkg --print-architecture)"
 sudo tee /etc/apt/sources.list.d/home:clayrisser:sid.sources > /dev/null <<EOF
@@ -15,3 +15,5 @@ Signed-By: /etc/apt/keyrings/home_clayrisser_sid.gpg
 EOF
 sudo apt update
 sudo apt install ghostty -y
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sed -i 's/robbyrussel/bira/g' ~/file.txt
