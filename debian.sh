@@ -19,5 +19,5 @@ EOF
 sudo apt update
 sudo apt install ghostty -y
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-sed -i 's/robbyrussel/bira/g' ~/file.txt
+sed -i 's/robbyrussel/bira/g' ~/.zshrc
 sudo reboot
