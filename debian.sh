@@ -1,7 +1,7 @@
 # the first two are required if you install with a root password and another user account
 # apt install sudo
 # sudo usermod -aG sudo (user)
-sudo apt install wget
+sudo apt install wget curl
 wget https://cdn.fastly.steamstatic.com/client/installer/steam.deb
 sudo dpkg -i steam.deb
 sudo apt install fastfetch chromium xinit curl htop i3 thunar zsh -y
