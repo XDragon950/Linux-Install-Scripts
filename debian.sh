@@ -4,7 +4,7 @@
 sudo apt install wget curl 
 wget https://cdn.fastly.steamstatic.com/client/installer/steam.deb
 sudo dpkg -i steam.deb
-sudo apt --fix-broken install
+sudo apt --fix-broken install -y
 sudo apt install fastfetch chromium xinit curl htop i3 thunar zsh -y
 chsh -s /bin/zsh
 curl -fsSL https://download.opensuse.org/repositories/home:clayrisser:sid/Debian_Unstable/Release.key | gpg --dearmor | sudo tee /etc/apt/keyrings/home_clayrisser_sid.gpg > /dev/null
