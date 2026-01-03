@@ -3,7 +3,7 @@ These are scripts to install a bunch of packages and change aspects of the syste
 ## Debian:
 ```
   sudo apt install git
-  git clone https://github.com/XDraogon950/linux-install-scripts
+  git clone https://github.com/XDraogon950/Linux-Install-Scripts
   cd Linux-Install-Scripts
   sudo chmod +x debian.sh
   ./debian.sh
