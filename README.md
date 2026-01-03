@@ -2,7 +2,7 @@ These are scripts to install a bunch of packages and change aspects of the syste
 # To Install On 
 ## Debian:
 ```
-sudo apt update && sudo apt upgrade
+sudo apt update && sudo apt upgrade -y
 sudo apt install git -y
 git clone https://github.com/XDragon950/Linux-Install-Scripts
 cd Linux-Install-Scripts
