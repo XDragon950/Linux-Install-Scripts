@@ -1,7 +1,7 @@
 # the first two are required if you install with a root password and another user account
 # apt install sudo
 # sudo usermod -aG sudo (user)
-sudo apt install fastfetch firefox git xinit curl htop i3 thunar -y
+sudo apt install fastfetch firefox xinit curl htop i3 thunar -y
 curl -fsSL https://download.opensuse.org/repositories/home:clayrisser:sid/Debian_Unstable/Release.key | gpg --dearmor | sudo tee /etc/apt/keyrings/home_clayrisser_sid.gpg > /dev/null
 ARCH="$(dpkg --print-architecture)"
 sudo tee /etc/apt/sources.list.d/home:clayrisser:sid.sources > /dev/null <<EOF
