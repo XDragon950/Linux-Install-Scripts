@@ -14,4 +14,4 @@ Architectures: $ARCH
 Signed-By: /etc/apt/keyrings/home_clayrisser_sid.gpg
 EOF
 sudo apt update
-sudo apt install ghostty-y
+sudo apt install ghostty -y
