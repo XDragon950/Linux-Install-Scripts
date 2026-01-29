@@ -11,8 +11,8 @@ sudo chmod +x debian.sh
 ```
 ## Arch
 ```
-  sudo pacman -S git
+  sudo pacman -Syu git
   git clone https://github.com/XDraogon950/Linux-Install-Scripts
-  cd linux-install-scripts
+  cd Linux-Install-Scripts
   sudo chmod +x arch.sh
   ./arch.sh
